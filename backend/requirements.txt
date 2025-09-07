@@ -5,3 +5,7 @@ matplotlib
 scikit-learn
 prophet
 python-multipart
+
+uvicorn[standard]
+tensorflow
+Pillow
