@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Data and models (ignore heavy stuff)
+data/
+seg_train/
+seg_test/
+seg_pred/
+*.h5
+*.pkl
+*.pt
+*.ckpt
+
+# Logs
+*.log
+logs/
