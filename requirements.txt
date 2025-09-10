@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+tensorflow
+Pillow
+ultralytics # If you add YOLOv8 detection
+pandas      # For forecasting
+prophet     # For forecasting (if used)
