@@ -7,16 +7,11 @@ __pycache__/
 # Virtual environment
 venv/
 .env
+# Ignore everything inside data/
+data/*
 
-# Data and models (ignore heavy stuff)
-data/
-seg_train/
-seg_test/
-seg_pred/
-*.h5
-*.pkl
-*.pt
-*.ckpt
+# But keep the model file
+!data/fish_classifier_model.h5
 
 # Logs
 *.log
